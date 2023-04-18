@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./styles.css";
-import { useCallback } from "react";
 
 function App() {
   const [expression, setExpression] = useState([]);
